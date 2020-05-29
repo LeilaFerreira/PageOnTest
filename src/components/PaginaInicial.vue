@@ -240,7 +240,7 @@ export default {
         "data": "2020-04-26",
         "demanda": 25,
         "capacidade": 32,
-        "planejado": 100,
+        "planejado": 20,
         "atendimentoRealizado": 94,
         "desvio": 60
       },
@@ -258,10 +258,55 @@ export default {
         "data": "2020-02-17",
         "demanda": 52,
         "capacidade": 68,
-        "planejado": 65,
+        "planejado": 52,
         "atendimentoRealizado": 91,
         "desvio": 35
-      }
+      },
+      {
+         "id": 8,
+        "data": "2020-02-17",
+        "demanda":22,
+        "capacidade": 68,
+        "planejado": 22,
+        "atendimentoRealizado": 91,
+        "desvio": 35
+      },
+      {
+         "id": 9,
+        "data": "2020-02-17",
+        "demanda": 32,
+        "capacidade": 68,
+        "planejado": 32,
+        "atendimentoRealizado": 91,
+        "desvio": 35
+      },
+      {
+         "id": 10,
+        "data": "2020-02-17",
+        "demanda": 42,
+        "capacidade": 68,
+        "planejado": 42,
+        "atendimentoRealizado": 91,
+        "desvio": 35
+      },
+      {
+         "id": 11,
+        "data": "2020-02-17",
+        "demanda": 19,
+        "capacidade": 68,
+        "planejado": 19,
+        "atendimentoRealizado": 91,
+        "desvio": 35
+      },
+      {
+         "id": 12,
+        "data": "2020-02-17",
+        "demanda": 35,
+        "capacidade": 68,
+        "planejado": 35,
+        "atendimentoRealizado": 91,
+        "desvio": 35
+      },
     ]
 
     }

@@ -4,6 +4,7 @@ import { Bar } from "vue-chartjs";
 export default {
   extends: Bar,
   mounted() {
+   var chart=JSON.parse(localStorage.getItem('listAtendimento'))
     this.renderChart(
       {
         labels: [
@@ -24,7 +25,11 @@ export default {
           {
             label: "Data One",
             backgroundColor: "#f87979",
-            data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
+            data: [
+                  chart[0].planejado, chart[1].planejado, chart[2].planejado, 
+                  chart[3].planejado, chart[4].planejado,chart[5].planejado, chart[6].planejado,
+                  chart[7].planejado,chart[8].planejado,chart[9].planejado,chart[10].planejado,chart[11].planejado, 
+                  ]
           }
         ]
       },
