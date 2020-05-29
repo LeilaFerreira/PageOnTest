@@ -2,6 +2,15 @@
 
 > A Vue.js project
 
+
+Neste exercicio foi criada uma página, com 3 partes, que contém:
+ 
+Cabeçalho: Elemento horizontal no topo da tela -  com uma identificação visual de um projeto (Pode ser ícone personalizado ou algum free interessante recuperado na internet)
+Menu Lateral: Vertical à esquerda, com alguns itens (podem ser nomes aleatórios)
+Tela Principal: Tabela com as seguintes colunas: data, demanda, capacidade, atendimento planejado, atendimento realizado e desvio (Os dados podem ser aleatórios e definidos manualmente).
+Gráfico:  gráfico de dados (Cartesiano, com colunas feito com framework Chart.js) a partir da tabela inserida acima, onde o eixo x conterá os dados de data (todas as datas presentes na tabela) e o eixo y apresentará a diferença entre os valores de Capacidade e Atendimento Realizado (uma coluna) para aquela data específica. A fonte de dados deve ser a mesma do item ‘Tela Principal’.
+ 
+
 ## Build Setup
 
 ``` bash
